@@ -1,0 +1,15 @@
+""" 
+ciclos:
+
+while (condicion):
+    ...
+    ...
+    ... 
+"""
+    
+inicio = 1
+limite = int(input("ingrese el numero limite : "))
+
+while (inicio < limite):
+    print(f"el valor actual es : " + str(inicio))
+    inicio = inicio + 1
